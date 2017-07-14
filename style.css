@@ -30,6 +30,7 @@ span {
 .main_container{
   display: flex;
   border: .5px solid black;
+  justify-content: space-between;
 }
 
 .main_elem {
@@ -38,34 +39,69 @@ span {
   border: .5px solid black;
 }
 
-.column.large {
+.column_large {
   width: 630px;
   display: flex;
   border: .5px solid black;
+  flex-direction: column;
 }
 
 .large_elem {
-    border: .5px solid black;
+  flex-wrap: wrap;
+  border: .5px solid black;
 }
 
-.column.medium {
+.column_medium {
   display: flex;
+  flex-direction: column;
   border: .5px solid black;
   width: 300px;
 }
 
 .medium_elem {
-    border: .5px solid black;
+  flex-wrap: wrap;
+  border: .5px solid black;
 }
 
-.column.small {
+.column_small {
   display: flex;
+  flex-direction: column;
   border: .5px solid black;
   width: 240px;
 }
 
 .small_elem {
-    border: .5px solid black;
+  flex-wrap: wrap;
+  border: .5px solid black;
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#mainstory {
+  background-image: url("img/mainstory.png");
+}
+
+#fallseason {
+  background-image: url("img/fallseason.png");
+}
+
+#cameraman {
+  background-image: url("img/cameraman.png");
+}
+
+#catceo {
+  background-image: url("img/catceo.png");
 }
 
 #title {
