@@ -1,95 +1,106 @@
-body {
-  font-family: Verdana;
-  font-size: 14px;
-}
-
 a {
   color: black;
+  margin: 0 15px;
 }
 
-span {
-  display: inline-block;
-  margin: 0 10px;
-}
 
 .head_container{
   display: flex;
+  position: fixed;
   align-items: center;
+  background-color: white;
   justify-content: space-between;
-  height: 75px;
+  width: 100%;
   border-bottom: .5px solid black;
+  font-family: Verdana;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .head_elem {
+  align-items: center;
   display: inline-flex;
   color: MediumAquamarine;
-  margin: 0 30px;
+  padding: 0 30px;
 }
 
 .main_container{
+  padding: 100px 0 0 0;
   display: flex;
-  border: .5px solid black;
   justify-content: space-between;
+  font-size: 17px;
 }
 
 .main_elem {
   display: flex;
   flex-direction: column;
-  border: .5px solid black;
+  font-family: Georgia;
+  margin: 0 auto;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
 }
 
 .column_large {
   width: 630px;
   display: flex;
-  border: .5px solid black;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .large_elem {
-  flex-wrap: wrap;
-  border: .5px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
 }
 
 .column_medium {
   display: flex;
   flex-direction: column;
-  border: .5px solid black;
   width: 300px;
 }
 
 .medium_elem {
-  flex-wrap: wrap;
-  border: .5px solid black;
 }
 
 .column_small {
   display: flex;
   flex-direction: column;
-  border: .5px solid black;
+  justify-content: center;
   width: 240px;
 }
 
-.small_elem {
-  flex-wrap: wrap;
-  border: .5px solid black;
+ul {
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: .5 solid black;
 }
 
-.story {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+li {
+}
+
+.small_elem {
 }
 
 .headline {
-  font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+  height: 300px;
+}
+
+.story {
+  margin: 10px auto;
 }
 
 #mainstory {
   background-image: url("img/mainstory.png");
+  font-size: 40px;
 }
 
 #fallseason {
@@ -104,10 +115,7 @@ span {
   background-image: url("img/catceo.png");
 }
 
-#title {
-  margin: auto 10px;
-}
-
 #logo {
   justify-content: flex-start;
+  color: white;
 }
