@@ -92,8 +92,10 @@ a {
 .imgheadline {
   font-weight: bold;
   font-size: 30px;
+  display: flex;
   color: white;
   text-align: center;
+  align-items: center;
   height: 300px;
 }
 
